@@ -2,7 +2,6 @@
 
 html{
     font-size: 62.5%;
-   
 }
 
 /* Set up page body */
@@ -18,7 +17,7 @@ header{
     font-size: 1.4rem;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header-logo, .header-links{
@@ -50,7 +49,8 @@ a:hover{
     display: flex;
     padding-top: 100px;
     padding-left: 100px;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
 }
 
 h1{
@@ -63,8 +63,8 @@ h1{
     width: 350px;
     height: auto;
     padding-right: 100px;
+    padding-left: 50px;
     padding-bottom: 100px;
-
 
 }
 
@@ -88,12 +88,6 @@ h2{
     justify-content: center;
 }
 
-/* .info-text{
-    justify-content: space-between;
-    margin-left: 0;
-    text-align: center;
-    margin-right: 30%;
-}  */
 
 figure{
     display: flex;
@@ -130,7 +124,40 @@ figcaption{
 /* Fourth Section */
 
 .fourth-section{
-    
+    color: white;
+    background-color: #3882F6;
+    margin: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+.fourth-section-heading{
+    font-size: 3.6rem;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.fourth-section-text{
+    font-size: 1.8rem;
+    margin: 0;
+    padding-bottom: 10%;
+
+}
+
+/* Footer */
+footer{
+    color: white;
+    background-color: #1F2937;
+    font-size: 1.8rem;
+    height: 100px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
 }
 
 /* General styling  */
@@ -138,11 +165,15 @@ figcaption{
 button{
     background-color: #3882F6;
     color: white;
-    border: white;
+    border: 2px solid white;
     font-size: 1.8rem;
     padding: 10px 50px;
     border-radius: 10px;
 
+}
+
+button:hover{
+    background-color: #2b68cc;
 }
 
 p{
