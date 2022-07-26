@@ -111,8 +111,23 @@ figcaption{
 /* Third Section */
 
 .third-section{
-
+    background-color: #E5E7EB;
+    padding: 10%;
 }
+
+.quote{
+    font-size: 3.6rem;
+    font-style: italic;
+}
+
+.quote-aside{
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: end;
+}
+
+
+/* Fourth Section */
 
 .fourth-section{
     
